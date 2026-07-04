@@ -3,11 +3,28 @@
   Replace every [PLACEHOLDER] below with your real info before pushing.
   This file expects an `assets/` folder sitting next to it in the repo
   (username/username), containing: banner.svg, divider.svg, pixel-pet.svg, footer.svg
+
+  IMPORTANT — image hosting:
+  All asset images below are loaded via jsDelivr (cdn.jsdelivr.net/gh/...) rather than
+  a relative path or raw.githubusercontent.com. This is required: GitHub's raw file
+  server sends SVGs with a "text/plain" content-type + nosniff header, so browsers
+  refuse to render them as images and you get a broken-icon placeholder instead.
+  jsDelivr serves the correct "image/svg+xml" type, so the SVGs actually display.
+
+  Steps:
+  1. Find & replace every [YOUR-USERNAME] with your real GitHub username (repo must
+     be named [YOUR-USERNAME]/[YOUR-USERNAME]).
+  2. Confirm your default branch name — the URLs below assume "@main". If your repo
+     uses "master", replace "@main" with "@master" in every asset URL.
+  3. jsDelivr caches files for a while. After your first push (or any later edit to
+     an SVG), if the image doesn't update, purge the cache for that exact file at:
+     https://www.jsdelivr.com/tools/purge
 -->
+
 
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Hasini banner"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/banner.svg" width="100%" alt="Hasini banner"/>
 
 <a href="https://github.com/[YOUR-USERNAME]">
   <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=3200&pause=1200&color=B191C9&center=true&vCenter=true&width=560&lines=welcome+to+my+little+corner+of+the+internet...;building+things+one+sparkle+at+a+time+%E2%9C%A8;AI+%2B+coffee+%2B+carnatic+music+%3D+me" alt="typing tagline" />
@@ -15,7 +32,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ INBOX ============================ -->
 <div align="center">
@@ -30,7 +47,7 @@
 > résumé and more of a little scrapbook: a bit of who I am, what I'm building,
 > and what's currently living in my dev diary. Pull up a chair, the tea's warm. 🍵
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ ABOUT ME ============================ -->
 <div align="center">
@@ -56,7 +73,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ TOOLBOX ============================ -->
 <div align="center">
@@ -114,7 +131,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ PROJECTS ============================ -->
 <div align="center">
@@ -190,7 +207,7 @@
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ CURRENTLY BREWING ============================ -->
 <div align="center">
@@ -211,7 +228,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ ACHIEVEMENTS ============================ -->
 <div align="center">
@@ -224,7 +241,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=[YOUR-USERNAME]&theme=gruvbox&no-frame=true&no-bg=true&margin-w=12&column=4" alt="trophies"/>
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ DEVELOPER STATS ============================ -->
 <div align="center">
@@ -244,7 +261,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ DEVELOPER DIARY ============================ -->
 <div align="center">
@@ -273,13 +290,13 @@
 
 </details>
 
-<img src="./assets/divider.svg" width="100%" alt="divider"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/divider.svg" width="100%" alt="divider"/>
 
 <!-- ============================ PET + SOCIALS ============================ -->
 <table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle">
-  <img src="./assets/pixel-pet.svg" width="120" alt="animated pixel bunny companion"/>
+  <img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/pixel-pet.svg" width="120" alt="animated pixel bunny companion"/>
   <br/><sub>say hi to my bunny</sub>
 </td>
 <td width="75%" align="center" valign="middle">
@@ -297,23 +314,8 @@
 </tr>
 </table>
 
-<img src="./assets/footer.svg" width="100%" alt="footer"/>
+<img src="https://cdn.jsdelivr.net/gh/[YOUR-USERNAME]/[YOUR-USERNAME]@main/assets/footer.svg" width="100%" alt="footer"/>
 
 <div align="center">
 <sub>✨ thanks for scrolling all the way down ✨</sub>
 </div>
-
-<!--
-**hasini-jpg/hasini-jpg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
